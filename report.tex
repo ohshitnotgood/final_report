@@ -1,4 +1,14 @@
 \documentclass{article}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+    citecolor=red,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+}
 
 \title{Evaluation of Pair Programming}
 
@@ -7,8 +17,10 @@
 \begin{document}
 \maketitle
 \begin{abstract}
-    Hello World
+    The goal of this research paper is to report on the effectiveness and efficiency of pair programming while participating in an agile team. The article uses personal accounts as material for analysis and presents the findings. The article also compares these findings with outcome from research on other agile teams.
 \end{abstract}
+
+\textbf{\textit{Keywords}}: agile development, collaborative work, survey data analysis
 
 \input{introduction}
 \input{background}
@@ -18,8 +30,34 @@
 \input{conclusion}
 
 \begin{thebibliography}{1000}
+    \bibitem{agile}
+    Shamsulhuda Khan,
+    A Comparative Study of Agile and Waterfall Software Development Methodologies, \textit{DOI: 10.48175/IJARSCT-5696}
+    
+    \bibitem{agile_3}
+    Cockburn, Alistair, and Laurie Williams. "The costs and benefits of pair programming." \textit{Extreme programming examined 8 (2000): 223-247.}
+    
+    \bibitem{agile_2}
+    Jordan B Barlow, et. al, Overview and Guidance on Agile Development in Large Organizations, \textit{Volume 29, Article 2, pp. 25-44, July 2011}
+
+
+
+    \bibitem{pair}
+    Nawrocki, Jerzy, and Adam Wojciechowski. "Experimental evaluation of pair programming." \textit{European Software Control and Metrics (Escom) (2001): 99-101.}
+
+    \bibitem{pair_2}
+    Joe E Hannay, The effectiveness of pair programming: A meta-analysis, \textit{DOI: 10.1016/j.infsof.2009.02.001}
+
+
     \bibitem{llama3}
-    Introducing Meta Llama 3: The most capable openly available LLM to date
+    Meta, \href{https://ai.meta.com/blog/meta-llama-3/}{Introducing Meta Llama 3: The most capable openly available LLM to date}, last accessed May 16 2024 at 15:40
+
+    \bibitem{skill_issue}
+    Rinaily Bonifacio, \href{https://www.shiftbase.com/glossary/skills-gap}{The Skills Gap Challenge: Understanding and Overcoming It}, last accessed May 16, 2024 at 22:44
+
+    \bibitem{team_building}
+    Sadman Sakib Khan, \href{https://polygontechnology.io/benefits-of-having-an-agile-team-building-your-digital-product/}{Benefits Of Having An Agile Team Building Your Digital Product}
+
 \end{thebibliography}
 
 \end{document}
